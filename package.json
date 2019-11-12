@@ -1,0 +1,8 @@
+{
+    "name": "create-gitignore",
+    "version": "0.0.1",
+    "main": "./bin/index.js",
+    "bin": {
+        "create-gitignore": "./bin/index.js"
+    }
+}
