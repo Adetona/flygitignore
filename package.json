@@ -1,8 +1,14 @@
 {
-    "name": "create-gitignore",
-    "version": "0.0.1",
+    "name": "flygitignore",
+    "version": "0.0.4",
     "main": "./bin/index.js",
     "bin": {
-        "create-gitignore": "./bin/index.js"
-    }
+        "flygitignore": "i.js"
+    },
+    "keywords": [
+        "git",
+        ".gitignore",
+        "node",
+        "github"
+    ]
 }

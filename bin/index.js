@@ -2,10 +2,9 @@
 
 const fs = require('fs');
 
-
 function createFile() {
 	fs.readFile('gitignore.txt', function (err, data) {
-	var content = data; 
+	var content = ""; 
 	//var content = "#gitignore content"; 
 
 	fs.appendFile('.gitignore', content, (err)=>{
@@ -16,8 +15,6 @@ function createFile() {
 })
 
 }
-
-
 
 const path = '.gitignore'; 
 
@@ -33,6 +30,3 @@ fs.access(path, fs.F_OK, (Notexist, err)=>{
 
 
 })
-
-
-
